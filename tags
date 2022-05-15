@@ -1,0 +1,80 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ATOMIC_INIT	atomic.h	17;"	d
+NUM_THREADS	buggy.c	184;"	d	file:
+PrintHello	24_pthread_return_arg.c	/^void *PrintHello(void *thredobj)$/;"	f
+PrintHello	24_pthread_strcuture.c	/^void *PrintHello(void *thredobj)$/;"	f
+Proc	pthread_ingeritence.c	/^void* Proc(void* param)$/;"	f
+_ATOMIC_H	atomic.h	3;"	d
+atomic_add	atomic.h	/^static inline void atomic_add( int i, atomic_t *v )$/;"	f
+atomic_add_negative	atomic.h	/^static inline int atomic_add_negative( int i, atomic_t *v )$/;"	f
+atomic_dec	atomic.h	/^static inline void atomic_dec( atomic_t *v )$/;"	f
+atomic_dec_and_test	atomic.h	/^static inline int atomic_dec_and_test( atomic_t *v )$/;"	f
+atomic_inc	atomic.h	/^static inline void atomic_inc( atomic_t *v )$/;"	f
+atomic_inc_and_test	atomic.h	/^static inline int atomic_inc_and_test( atomic_t *v )$/;"	f
+atomic_read	atomic.h	25;"	d
+atomic_set	atomic.h	32;"	d
+atomic_sub	atomic.h	/^static inline void atomic_sub( int i, atomic_t *v )$/;"	f
+atomic_sub_and_test	atomic.h	/^static inline int atomic_sub_and_test( int i, atomic_t *v )$/;"	f
+atomic_t	atomic.h	/^} atomic_t;$/;"	t	typeref:struct:__anon1
+buggy	buggy_gdb.c	/^void buggy()$/;"	f
+buggy	chekcfree.c	/^void buggy()$/;"	f
+c	debugging.c	/^gdb is popular debugging tool tht supoosrt many laguage such as c,c++,pyhton,pascel,forton$/;"	v
+cond1	pthread_mutex_cond.c	/^pthread_cond_t cond1=PTHREAD_COND_INITIALIZER;$/;"	v
+counter	atomic.h	/^	volatile int counter;$/;"	m	struct:__anon1
+done	pthread_mutex_cond.c	/^int done=1;$/;"	v
+first	gdb_new.c	/^first;$/;"	v	typeref:struct:student
+foo	pthread_mutex_cond.c	/^void* foo(void *arg)$/;"	f
+func	buggy.c	/^void *func(void *arg)$/;"	f
+gender	gdb_new.c	/^	char name[40],gender;$/;"	m	struct:student	file:
+height	gdb_new.c	/^	float height;$/;"	m	struct:student	file:
+i	buggy.c	/^int i;$/;"	v
+lock	pthread_mutex_cond.c	/^pthread_mutex_t lock=PTHREAD_COND_INITIALIZER;$/;"	v
+main	24_pthread_return_arg.c	/^int main()$/;"	f
+main	24_pthread_strcuture.c	/^int main()$/;"	f
+main	25_fiforead.c	/^int main()$/;"	f
+main	25_fifowrite.c	/^int main()$/;"	f
+main	25_pipe.c	/^int main()$/;"	f
+main	atomic.c	/^int main()$/;"	f
+main	buggy.c	/^int main()$/;"	f
+main	buggy_gdb.c	/^int main()$/;"	f
+main	chekcfree.c	/^int main()$/;"	f
+main	code.c	/^int main()$/;"	f
+main	f.c	/^void main()$/;"	f
+main	gdb_fact.c	/^int main()$/;"	f
+main	gdb_new.c	/^int main()$/;"	f
+main	gdb_ns.c	/^int main()$/;"	f
+main	main.c	/^int main(int args,char *argv[])$/;"	f
+main	malloc_gdb.c	/^int main()$/;"	f
+main	maxfds.c	/^int main()$/;"	f
+main	memset.c	/^int main()$/;"	f
+main	mmap_operation.c	/^int main(int args,char *argv[])$/;"	f
+main	null.c	/^int main()$/;"	f
+main	pthread_ingeritence.c	/^int main(int argc, char *argv[])$/;"	f
+main	pthread_mutex_cond.c	/^int main()$/;"	f
+main	pthread_priority.c	/^main()$/;"	f
+main	pthreads.c	/^int main()$/;"	f
+main	realloc.c	/^void main()$/;"	f
+main	w_psid.c	/^int main(void)$/;"	f
+main	wed_fork.c	/^int main()$/;"	f
+main	wed_linux.c	/^int main()$/;"	f
+mean	calc_mean.c	/^double mean(double a,double b)$/;"	f
+mesg	24_pthread_return_arg.c	/^char mesg[100];$/;"	m	struct:my_thread	file:
+mesg	24_pthread_strcuture.c	/^char mesg[100];$/;"	m	struct:my_thread	file:
+my	pthread_priority.c	/^void *my(void *i)$/;"	f
+my_thread	24_pthread_return_arg.c	/^struct my_thread$/;"	s	file:
+my_thread	24_pthread_strcuture.c	/^struct my_thread$/;"	s	file:
+mymemcopy	memset.c	/^void mymemcopy(char *src,char *dest,int count)$/;"	f
+myprint	gdb_ns.c	/^void myprint(char *msg)$/;"	f
+name	gdb_new.c	/^	char name[40],gender;$/;"	m	struct:student	file:
+pascel	debugging.c	/^gdb is popular debugging tool tht supoosrt many laguage such as c,c++,pyhton,pascel,forton$/;"	v
+pyhton	debugging.c	/^gdb is popular debugging tool tht supoosrt many laguage such as c,c++,pyhton,pascel,forton$/;"	v
+roll	gdb_new.c	/^	int roll;$/;"	m	struct:student	file:
+student	gdb_new.c	/^struct student$/;"	s	file:
+sub	calc_sub.c	/^double sub(double a,double b)$/;"	f
+thread_id	24_pthread_return_arg.c	/^int thread_id;$/;"	m	struct:my_thread	file:
+thread_id	24_pthread_strcuture.c	/^int thread_id;$/;"	m	struct:my_thread	file:
